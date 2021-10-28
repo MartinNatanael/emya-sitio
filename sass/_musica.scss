@@ -1,0 +1,50 @@
+@import "variables";
+
+.section-musica-tino {
+
+    background-color: $fondo;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    @media only screen and (max-width: 420px){
+        justify-content: flex-start;
+        
+    }
+
+    span {
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+        margin: 2%;
+        @media only screen and (max-width: 420px){
+            margin-left: 10%;
+        }
+
+        h2 {
+            font-family: $fontsans;
+            font-style: italic;
+            color: $grisuno;
+        }
+
+       
+
+        iframe {
+
+            @media only screen and (max-width: 420px) {
+                max-width: 250px;
+                max-height: 445px;
+                width: 100%;
+                height: 100%;
+
+            }
+
+        }
+
+
+
+    }
+
+
+}
